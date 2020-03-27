@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Signup extends Component {
+
   render() {
-  return (
+    return (
+    <div className="body">
+    <div class="navbar">
+      <div ><h2>Your-Vote</h2></div>
+      <div class="btn" id="buttons"><a href="./html/admin.html">Admin</a></div>
+      <div class="btn" id="buttons"><a href="./html/politician.html">Politician</a></div>
+    </div>
     <div className="forms">
     <h2>Signup here</h2>
     <form>
@@ -12,11 +20,12 @@ class Signup extends Component {
       <input type="password" placeholder="password" required />
       <input type="submit" value="submit" required />
     </form>
-    <p>Want to signin?. <a href="./html/signin.html">Click here</a></p>
-    <p>Forgot the password?. <a href="./html/recover.html">Click here</a></p>
+    <p>Want to signin?. <Link to="/signin">Click here</Link></p>
+    <p>Forgot the password?. <Link to={``}>Click here</Link></p>
     <div></div>
   </div>
-  );
+  </div>
+    );
   }
 }
 
