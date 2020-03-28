@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Signup extends Component {
   render() {
@@ -16,8 +17,8 @@ class Signup extends Component {
               <input type="password" placeholder="password" required />
               <input type="submit" value="submit" required />
             </form>
-            <p>Want to signup?. <a href="../index.html">Click here</a></p>
-            <p>Forgot the password?. <a href="recover.html">Click here</a></p>
+            <p>Want to signup?. <Link to="/">Click here</Link></p>
+            <p>Forgot the password?. <Link to="/recover">Click here</Link></p>
             <div></div>
           </div>
           <div className="footer">
