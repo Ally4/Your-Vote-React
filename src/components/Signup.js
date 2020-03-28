@@ -21,7 +21,7 @@ class Signup extends Component {
       <input type="submit" value="submit" required />
     </form>
     <p>Want to signin?. <Link to="/signin">Click here</Link></p>
-    <p>Forgot the password?. <Link to={``}>Click here</Link></p>
+    <p>Forgot the password?. <Link to="/recover">Click here</Link></p>
     <div></div>
   </div>
   </div>
