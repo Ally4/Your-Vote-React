@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class AdminSignin extends Component {
+class PoliticianSignin extends Component {
     render() {
         return (
             <body class="body">
   <div class="navbar">
     <div ><h2>Your-Vote</h2></div>
     <div class="btn" id="buttons"><Link to="/signin">Signin</Link></div>
-    <div className="btn" id="buttons"><Link to="politician-signin">Politician</Link></div>
+    <div class="btn" id="buttons"><Link to="/admin-signin">Admin</Link></div>
 </div>
         <div class="forms">
-            <h2>Sign as admin</h2>
-            <form action="admin-dash.html">
+            <h2>Sign as politician</h2>
+            <form action="politician-dash.html">
               <input type="email" placeholder="email" required />
               <input type="password" placeholder="password" required />
               <input type="submit" value="submit" required />
@@ -29,4 +29,4 @@ class AdminSignin extends Component {
     }
 }
 
-export default AdminSignin;
+export default PoliticianSignin;

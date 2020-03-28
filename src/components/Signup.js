@@ -9,7 +9,7 @@ class Signup extends Component {
     <div class="navbar">
       <div ><h2>Your-Vote</h2></div>
       <div class="btn" id="buttons"><Link to="/admin-signin">Admin</Link></div>
-      <div class="btn" id="buttons"><Link href="./html/politician.html">Politician</Link></div>
+      <div class="btn" id="buttons"><Link to="/politician-signin">Politician</Link></div>
     </div>
     <div className="forms">
     <h2>Signup here</h2>

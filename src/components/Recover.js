@@ -8,7 +8,7 @@ class Recover extends Component {
   <div class="navbar">
     <div ><h2>Your-Vote</h2></div>
     <div class="btn" id="buttons"><Link to="/admin-signin">Admin</Link></div>
-    <div class="btn" id="buttons"><a href="./politician.html">Politician</a></div>
+    <div className="btn" id="buttons"><Link to="politician-signin">Politician</Link></div>
 </div>
         <div class="forms">
             <h2>Recover your password</h2>

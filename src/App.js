@@ -4,6 +4,7 @@ import Signup from './components/Signup';
 import Signin from './components/Signin';
 import Recover from './components/Recover';
 import AdminSignin from './components/AdminSignin';
+import PoliticianSignin from './components/PoliticianSignin';
 import './App.css';
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Route path="/signin" component={Signin} />
         <Route path="/recover" component={Recover} />
         <Route path="/admin-signin" component={AdminSignin} />
+        <Route path="/politician-signin" component={PoliticianSignin} />
         <Route />
       </Switch>
     </div>

@@ -8,7 +8,7 @@ class Signup extends Component {
   <div className="navbar">
     <div ><h2>Your-Vote</h2></div>
     <div class="btn" id="buttons"><Link to="/admin-signin">Admin</Link></div>
-    <div className="btn" id="buttons"><a href="./politician.html">Politician</a></div>
+    <div className="btn" id="buttons"><Link to="politician-signin">Politician</Link></div>
 </div>
         <div className="forms">
             <h2>Signin here</h2>
