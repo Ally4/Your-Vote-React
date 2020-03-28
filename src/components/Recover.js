@@ -7,7 +7,7 @@ class Recover extends Component {
 <body class="body">
   <div class="navbar">
     <div ><h2>Your-Vote</h2></div>
-    <div class="btn" id="buttons"><a href="./admin.html">Admin</a></div>
+    <div class="btn" id="buttons"><Link to="/admin-signin">Admin</Link></div>
     <div class="btn" id="buttons"><a href="./politician.html">Politician</a></div>
 </div>
         <div class="forms">

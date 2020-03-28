@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class Signup extends Component {
-  render() {
-  return (
-<body className="body">
-  <div className="navbar">
+class AdminSignin extends Component {
+    render() {
+        return (
+            <body class="body">
+  <div class="navbar">
     <div ><h2>Your-Vote</h2></div>
-    <div class="btn" id="buttons"><Link to="/admin-signin">Admin</Link></div>
-    <div className="btn" id="buttons"><a href="./politician.html">Politician</a></div>
+    <div class="btn" id="buttons"><a href="../index.html">Signup</a></div>
+    <div class="btn" id="buttons"><a href="./politician.html">Politician</a></div>
 </div>
-        <div className="forms">
-            <h2>Signin here</h2>
-            <form action="user-dash.html">
+        <div class="forms">
+            <h2>Sign as admin</h2>
+            <form action="admin-dash.html">
               <input type="email" placeholder="email" required />
               <input type="password" placeholder="password" required />
               <input type="submit" value="submit" required />
@@ -21,12 +21,12 @@ class Signup extends Component {
             <p>Forgot the password?. <Link to="/recover">Click here</Link></p>
             <div></div>
           </div>
-          <div className="footer">
+          <div class="footer">
             <p>&copy; Your Vote 2020</p>
         </div>
 </body>
-  );
-  }
+        );
+    }
 }
 
-export default Signup;
+export default AdminSignin;
