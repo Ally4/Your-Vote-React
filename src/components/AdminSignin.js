@@ -15,7 +15,9 @@ class AdminSignin extends Component {
             <form action="admin-dash.html">
               <input type="email" placeholder="email" required />
               <input type="password" placeholder="password" required />
+              <Link to="/admin-dashboard">
               <input type="submit" value="submit" required />
+              </Link>
             </form>
             <p>Want to signup?. <Link to="/">Click here</Link></p>
             <p>Forgot the password?. <Link to="/recover">Click here</Link></p>
