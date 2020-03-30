@@ -2,18 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class Signup extends Component {
-  // constructor(props){
-  //   super(props);
-  //   this.state={value:''};
-  //   this.handleChange=this.handleChange.bind(this);
-  //   this.handleSubmit=this.handleSubmit.bind(this);
-  // }
-  // handleChange(event){
-  //   this.setState({value: event.target.value});
-  // }
-  // handleSubmit{
-  //   return <Redirect to="/UserDashboard" />;
-  // }
   render() {
   return (
 <body className="body">
