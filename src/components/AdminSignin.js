@@ -15,14 +15,16 @@ class AdminSignin extends Component {
             <form action="admin-dash.html">
               <input type="email" placeholder="email" required />
               <input type="password" placeholder="password" required />
+              <Link to="/admin-dashboard">
               <input type="submit" value="submit" required />
+              </Link>
             </form>
             <p>Want to signup?. <Link to="/">Click here</Link></p>
             <p>Forgot the password?. <Link to="/recover">Click here</Link></p>
             <div></div>
           </div>
           <div class="footer">
-            <p>&copy; Your Vote 2020</p>
+            <p>&copy; Vote4you 2020</p>
         </div>
 </body>
         );
