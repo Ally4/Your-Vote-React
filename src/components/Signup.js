@@ -13,7 +13,7 @@ class Signup extends Component {
     </div>
     <div className="forms">
     <h2>Signup here</h2>
-    <form>
+    <form action="/UserDashboard">
       <input type="text" placeholder="firstName" required />
       <input type="text" placeholder="lastName" required />
       <input type="email" placeholder="email" required />
