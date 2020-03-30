@@ -7,6 +7,7 @@ import AdminSignin from './components/AdminSignin';
 import PoliticianSignin from './components/PoliticianSignin';
 import UserDashboard from './components/UserDashboard';
 import AdminDashboard from './components/AdminDashboard';
+import PoliticianDashboard from './components/PoliticianDashboard';
 import './App.css';
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
         <Route path="/politician-signin" component={PoliticianSignin} />
         <Route path="/user-dashboard" component={UserDashboard} />
         <Route path="/admin-dashboard" component={AdminDashboard} />
+        <Route path="/politician-dashboard" component={PoliticianDashboard} />
         <Route />
       </Switch>
     </Router>

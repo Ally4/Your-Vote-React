@@ -24,7 +24,7 @@ class AdminSignin extends Component {
             <div></div>
           </div>
           <div class="footer">
-            <p>&copy; Your Vote 2020</p>
+            <p>&copy; Vote4you 2020</p>
         </div>
 </body>
         );

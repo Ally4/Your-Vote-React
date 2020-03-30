@@ -18,7 +18,9 @@ class Signup extends Component {
       <input type="text" placeholder="lastName" required />
       <input type="email" placeholder="email" required />
       <input type="password" placeholder="password" required />
-      <input type="submit" value="submit" required />
+      <Link to="/user-dashboard">
+      <input type="submit" value="Submit" required />
+      </Link>
     </form>
     <p>Want to signin?. <Link to="/signin">Click here</Link></p>
     <p>Forgot the password?. <Link to="/recover">Click here</Link></p>
