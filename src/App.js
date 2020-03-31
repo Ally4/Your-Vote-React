@@ -12,6 +12,7 @@ import ResultsPolitician from './components/ResultsPolitician';
 import ResultsAdmin from './components/ResultsAdmin';
 import ResultsUser from './components/ResultsUser';
 import CreateParty from './components/CreateParty';
+import CreateOffice from './components/CreateOffice';
 import './App.css';
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
         <Route path="/results-admin" component={ResultsAdmin} />
         <Route path="/results-user" component={ResultsUser} />
         <Route path="/create-party" component={CreateParty} />
+        <Route path="/create-office" component={CreateOffice} />
         <Route />
       </Switch>
     </Router>
