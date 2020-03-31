@@ -12,7 +12,7 @@ class AdminDashboard extends Component {
             <ul>
                 <li ><Link to="/create-party">Create a political party</Link></li>
                 <li ><Link to="/create-office">Create a political office</Link></li>
-                <li ><Link to="">Edit or delete</Link></li>
+                <li ><Link to="/edit-delete">Edit or delete</Link></li>
                 <li><Link to="/results-admin">Results</Link></li>
                 <li ><Link to="/">Logout</Link></li>
             </ul>
