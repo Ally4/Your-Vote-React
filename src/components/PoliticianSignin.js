@@ -12,7 +12,7 @@ class PoliticianSignin extends Component {
 </div>
         <div class="forms">
             <h2>Sign as politician</h2>
-            <form action="politician-dash.html">
+            <form>
               <input type="email" placeholder="email" required />
               <input type="password" placeholder="password" required />
               <Link to="/politician-dashboard">

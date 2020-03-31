@@ -6,12 +6,12 @@ class UserDashboard extends Component {
     render() {
         return (
 <body>
-    <div class="icon"><img src={user} id="iconId" alt="user"/></div>
+    <div class="icon"><img src={user} id="iconId" alt="user" /></div>
     <div class="content">
         <div class="sidebar">
             <ul>
                 <li ><Link to="/vote">Vote</Link></li>
-                <li ><Link to="">Political parties</Link></li>
+                <li ><Link to="/political-parties">Political parties</Link></li>
                 <li ><Link to="/voted">Voted</Link></li>
                 <li><Link to="/results-user">Results</Link></li>
                 <li ><Link to="/">Logout</Link></li>

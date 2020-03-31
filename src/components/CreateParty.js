@@ -11,8 +11,8 @@ class CreateParty extends Component {
         <div className="sidebar">
             <ul>
                 <li style={{background: "#234a7e"}}>Create a political party</li>
-                <li ><Link to="">Create a political office</Link></li>
-                <li><Link to="">Edit or delete</Link></li>
+                <li ><Link to="/create-office">Create a political office</Link></li>
+                <li><Link to="/edit-delete">Edit or delete</Link></li>
                 <li><Link to="/results-admin">Results</Link></li>
                 <li><Link to="/">Logout</Link></li>
             </ul>

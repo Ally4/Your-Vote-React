@@ -10,9 +10,9 @@ class ResultsAdmin extends Component {
     <div className="content">
         <div className="sidebar">
             <ul>
-                <li ><Link to="">Create a political party</Link></li>
-                <li ><Link to="">Create a political office</Link></li>
-                <li ><Link to="">Edit or delete</Link></li>
+                <li ><Link to="/create-party">Create a political party</Link></li>
+                <li ><Link to="/create-office">Create a political office</Link></li>
+                <li ><Link to="/edit-delete">Edit or delete</Link></li>
                 <li style={{background: "#234a7e"}}>Results</li>
                 <li><Link to="/">Logout</Link></li>
             </ul>

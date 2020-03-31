@@ -10,9 +10,9 @@ class ResultsUser extends Component {
     <div className="content">
         <div className="sidebar">
             <ul>
-                <li ><Link to="">Vote</Link></li>
-                <li ><Link to="">Political parties</Link></li>
-                <li><Link to="">Voted</Link></li>
+                <li ><Link to="/vote">Vote</Link></li>
+                <li ><Link to="/political-parties">Political parties</Link></li>
+                <li><Link to="/voted">Voted</Link></li>
                 <li style={{background: "#234a7e"}}>Results</li>
                 <li><Link to="/">Logout</Link></li>
             </ul>

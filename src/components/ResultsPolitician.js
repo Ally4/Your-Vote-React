@@ -10,7 +10,7 @@ class ResultsPolitician extends Component {
     <div className="content">
         <div className="sidebar">
             <ul>
-                <li ><Link to="">Run for an office</Link></li>
+                <li ><Link to="/run-for-office">Run for an office</Link></li>
                 <li style={{background: "#234a7e"}}>Results</li>
                 <li><Link to="/">Logout</Link></li>
             </ul>
