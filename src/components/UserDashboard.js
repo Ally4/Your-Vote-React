@@ -10,9 +10,9 @@ class UserDashboard extends Component {
     <div class="content">
         <div class="sidebar">
             <ul>
-                <li ><Link to="">Vote</Link></li>
+                <li ><Link to="/vote">Vote</Link></li>
                 <li ><Link to="">Political parties</Link></li>
-                <li ><Link to="">Voted</Link></li>
+                <li ><Link to="/voted">Voted</Link></li>
                 <li><Link to="/results-user">Results</Link></li>
                 <li ><Link to="/">Logout</Link></li>
             </ul>
