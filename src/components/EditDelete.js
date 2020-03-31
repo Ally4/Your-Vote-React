@@ -24,7 +24,7 @@ class EditDelete extends Component {
                 <li><Link to="./results-admin">Results</Link></li>
                 <li><Link to="/">Logout</Link></li>
             </ul>
-            <p className="greet">Hello user</p>
+            <p className="greet">Hello admin</p>
         </div>
         <div className="subcontent-vote">
             <h3>Hello, make your choice!.</h3>
