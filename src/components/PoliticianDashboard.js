@@ -10,7 +10,7 @@ class PoliticianDashboard extends Component {
     <div class="content">
         <div class="sidebar">
             <ul>
-                <li ><Link to="">Run for an office</Link></li>
+                <li ><Link to="/run-for-office">Run for an office</Link></li>
                 <li><Link to="/results-politician">Results</Link></li>
                 <li><Link to="/">Logout</Link></li>
             </ul>

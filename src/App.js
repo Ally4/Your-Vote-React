@@ -14,6 +14,7 @@ import ResultsUser from './components/ResultsUser';
 import CreateParty from './components/CreateParty';
 import CreateOffice from './components/CreateOffice';
 import EditDelete from './components/EditDelete';
+import RunForOffice from './components/RunForOffice';
 import './App.css';
 class App extends Component {
   render() {
@@ -34,6 +35,7 @@ class App extends Component {
         <Route path="/create-party" component={CreateParty} />
         <Route path="/create-office" component={CreateOffice} />
         <Route path="/edit-delete" component={EditDelete} />
+        <Route path="/run-for-office" component={RunForOffice} />
         <Route />
       </Switch>
     </Router>
