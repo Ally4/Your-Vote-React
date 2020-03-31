@@ -10,7 +10,7 @@ class AdminDashboard extends Component {
     <div class="content">
         <div class="sidebar">
             <ul>
-                <li ><Link to="">Create a political party</Link></li>
+                <li ><Link to="/create-party">Create a political party</Link></li>
                 <li ><Link to="">Create a political office</Link></li>
                 <li ><Link to="">Edit or delete</Link></li>
                 <li><Link to="/results-admin">Results</Link></li>
