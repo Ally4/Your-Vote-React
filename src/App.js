@@ -8,6 +8,9 @@ import PoliticianSignin from './components/PoliticianSignin';
 import UserDashboard from './components/UserDashboard';
 import AdminDashboard from './components/AdminDashboard';
 import PoliticianDashboard from './components/PoliticianDashboard';
+import ResultsPolitician from './components/ResultsPolitician';
+import ResultsAdmin from './components/ResultsAdmin';
+import ResultsUser from './components/ResultsUser';
 import './App.css';
 class App extends Component {
   render() {
@@ -22,6 +25,9 @@ class App extends Component {
         <Route path="/user-dashboard" component={UserDashboard} />
         <Route path="/admin-dashboard" component={AdminDashboard} />
         <Route path="/politician-dashboard" component={PoliticianDashboard} />
+        <Route path="/results-politician" component={ResultsPolitician} />
+        <Route path="/results-admin" component={ResultsAdmin} />
+        <Route path="/results-user" component={ResultsUser} />
         <Route />
       </Switch>
     </Router>

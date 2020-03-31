@@ -10,9 +10,9 @@ class PoliticianDashboard extends Component {
     <div class="content">
         <div class="sidebar">
             <ul>
-                <li ><Link to="./campaign.html">Run for an office</Link></li>
-                <li><Link to="./results-politician.html">Results</Link></li>
-                <li><Link to="../index.html">Logout</Link></li>
+                <li ><Link to="">Run for an office</Link></li>
+                <li><Link to="/results-politician">Results</Link></li>
+                <li><Link to="/">Logout</Link></li>
             </ul>
             <p class="greet">Hello politician</p>
         </div>
