@@ -10,11 +10,11 @@ class CreateOffice extends Component {
     <div className="content">
         <div className="sidebar">
             <ul>
-                <li ><a href="./create-party-admin.html">Create a political party</a></li>
+                <li ><a href="/create-party">Create a political party</a></li>
                 <li style={{background: "#234a7e"}}>Create a political office</li>
-                <li><a href="./delete-edit.html">Edit or delete</a></li>
-                <li><a href="./results.html">Results</a></li>
-                <li><a href="../index.html">Logout</a></li>
+                <li><a href="/edit-delete">Edit or delete</a></li>
+                <li><a href="/results-admin">Results</a></li>
+                <li><a href="/">Logout</a></li>
             </ul>
             <p className="greet">Hello Admin</p>
         </div>

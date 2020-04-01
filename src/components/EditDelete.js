@@ -21,7 +21,7 @@ class EditDelete extends Component {
                 <li ><Link to="/create-party">Create a political party</Link></li>
                 <li ><Link to="/create-office">Create a political office</Link></li>
                 <li style={{background: "#234a7e"}}>Edit or delete</li>
-                <li><Link to="./results-admin">Results</Link></li>
+                <li><Link to="/results-admin">Results</Link></li>
                 <li><Link to="/">Logout</Link></li>
             </ul>
             <p className="greet">Hello admin</p>

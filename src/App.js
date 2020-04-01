@@ -17,6 +17,7 @@ import EditDelete from './components/EditDelete';
 import RunForOffice from './components/RunForOffice';
 import Vote from './components/Vote';
 import Voted from './components/Voted';
+import PoliticalParties from './components/PoliticalParties';
 import './App.css';
 class App extends Component {
   render() {
@@ -40,6 +41,7 @@ class App extends Component {
         <Route path="/run-for-office" component={RunForOffice} />
         <Route path="/vote" component={Vote} />
         <Route path="/voted" component={Voted} />
+        <Route path="/political-parties" component={PoliticalParties} />
         <Route />
       </Switch>
     </Router>
